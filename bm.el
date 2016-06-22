@@ -121,9 +121,9 @@
 ;;   To make it easier to use, assign the commands to some keys.
 ;;
 ;;   M$ Visual Studio key setup.
-;;     (global-set-key (kbd "<C-f2>") 'bm-toggle)
-;;     (global-set-key (kbd "<f2>")   'bm-next)
-;;     (global-set-key (kbd "<S-f2>") 'bm-previous)
+    (global-set-key (kbd "<C-f1>") 'bm-toggle)
+    (global-set-key (kbd "<f1>")   'bm-next)
+    (global-set-key (kbd "<S-f1>") 'bm-previous)
 ;;
 ;;   Click on fringe to toggle bookmarks, and use mouse wheel to move
 ;;   between them.
